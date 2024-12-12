@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índices Agropecuários - CEPEA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2b5d1e;
+            color: white;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .widget {
+            background-color: #4f9c3b;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            width: 600px;
+            text-align: center;
+        }
+
+        .widget .title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .widget .index {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #398b3b;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .widget .index span {
+            font-size: 1.2rem;
+        }
+
+        .last-update {
+            margin-top: 20px;
+            font-size: 1rem;
+            font-weight: normal;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #bbb;
+        }
+
+        .iframe-container {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="widget">
+        <div class="title">
+            Índices Agropecuários
+        </div>
+
+        <div class="index">
+            <!-- Widgets Produtos Cepea - www.cepea.esalq.com.br/br/widget.aspx -->
+            <script type="text/javascript" src="https://www.cepea.esalq.usp.br/br/widgetproduto.js.php?fonte=arial&tamanho=10&largura=600px&corfundo=476921&cortexto=FFFFFF&corlinha=ede7bf&id_indicador%5B%5D=54&id_indicador%5B%5D=23"></script>
+        </div>
+
+    </div>
+
+    <!-- Embed Widget via iframe -->
+    
+
+</body>
+</html>
